@@ -1,0 +1,38 @@
+{
+    "name": "shaqi-labs/pay-bridge",
+    "description": "PHP library for integrating multiple payment gateways",
+    "type": "library",
+    "license": "MIT",
+    "keywords": [
+        "payments",
+        "payment-gateway",
+        "pakistan",
+        "integration"
+    ],
+    "authors": [
+        {
+            "name": "Ishtiaq Ahmed",
+            "email": "rajaishtiaq6@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^8.0",
+        "ext-curl": "*",
+        "ext-json": "*",
+        "ext-openssl": "*",
+        "getsafepay/safepay-php": "^1.0",
+        "getsafepay/sfpy-php": "^0.0.9"
+    },
+    "autoload": {
+        "psr-4": {
+            "ShaqiLabs\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "ShaqiLabs\\Tests\\": "tests/"
+        }
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true
+}
